@@ -2,7 +2,7 @@ rule Day01_Detects_Fresh_Gunra_Ransomware_Note
 {
     meta:
         author = "AtlsS3c"
-        description = "Fresh Gunra Ransomware - Ransomware Note"
+        description = "Fresh Gunra Ransomware - Ransom Note"
         date = "2026-01-01"
         hash = "50cafd8752b69a7ce09a24f9eec75ab70c043655100249fe2b705e032874c231"
         challenge = "100DaysOfYARA"
