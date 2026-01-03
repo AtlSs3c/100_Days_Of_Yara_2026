@@ -9,6 +9,6 @@ rule MAL_WIN_PE_Ransomware_Gunara_Ransomware_extension_Jan26
         filehash = "58308229297bad07686482b9fc7d6bd0e3ee5b2bddbd96cfd257f71e0e34afc4"
 
     condition:
-        extension == ".ENCRT" // Gunra Ransomware file extension
+        filename matches /\.encrt$/i // Gunra Ransomware file extension
 
 }
