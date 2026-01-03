@@ -1,14 +1,14 @@
-Day 02 – Gunra Ransomware Loader / Tool Detection
+# Day 02 – Gunra Ransomware Loader / Tool Detection
 
 ---
 
-Objective
+## Objective
 
 Create a YARA rule to detect a Windows PE executable associated with Gunra ransomware tooling
 
 ---
 
-Source Reference
+## Source Reference
 
 This rule is based on static analysis of a Gunra-related executable obtained from MalwareBazaar.
 
@@ -25,7 +25,7 @@ Note: Further Labs fom the workshop are still in progress
 
 ---
 
-Detection Logic and Reasoning
+## Detection Logic and Reasoning
 
 The rule is designed around the following principles:
 1. Strong Anchor Strings
