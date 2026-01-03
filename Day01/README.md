@@ -15,6 +15,16 @@ Note: I recreated the ransom note text safely for testing purposes
 
 ---
 
+## Rule Update
+
+Update date: 2026-01-03
+
+The rule was updated to:
+
+Add a filesize constraint
+
+Clarify intent through expanded metadata
+
 ## Detection Logic and Reasoning
 The rule is designed around the following ideas:
 
